@@ -1,0 +1,67 @@
+## Exomiser analysis — WGS_EX2312012 (whole-genome VCF, GRCh38)
+## Phenotype-driven prioritisation with the proband's HPO terms.
+## Model: standard EXOME model (coding) — the genome model requires REMM/CADD
+## tabix files which are NOT part of the 2512 bundle (see README/plan).
+## Inheritance: autosomal-recessive primary, AD/XD/XR/HOM_ALT/COMP_HET also kept.
+---
+analysis:
+  genomeAssembly: hg38
+  vcf: /home/ccloud/data/WGS_EX2312012_HGWCNDSX7.vcf.gz
+  hpoIds: [ 'HP:0002859', 'HP:0000121', 'HP:0004322', 'HP:0001508',
+            'HP:0003202', 'HP:0001622', 'HP:0001518', 'HP:0200067' ]
+  inheritanceModes: {
+    AUTOSOMAL_DOMINANT: 0.1,
+    AUTOSOMAL_RECESSIVE_HOM_ALT: 0.1,
+    AUTOSOMAL_RECESSIVE_COMP_HET: 2.0,
+    X_DOMINANT: 0.1,
+    X_RECESSIVE_HOM_ALT: 0.1,
+    X_RECESSIVE_COMP_HET: 2.0,
+    MITOCHONDRIAL: 0.2
+  }
+  analysisMode: PASS_ONLY
+  frequencySources: [
+    UK10K,
+    GNOMAD_E_AFR,
+    GNOMAD_E_AMR,
+    GNOMAD_E_EAS,
+    GNOMAD_E_NFE,
+    GNOMAD_E_SAS,
+    GNOMAD_G_AFR,
+    GNOMAD_G_AMR,
+    GNOMAD_G_EAS,
+    GNOMAD_G_NFE,
+    GNOMAD_G_SAS
+  ]
+  # No REMM/CADD available; coding pathogenicity only.
+  pathogenicitySources: [ REVEL, MVP, ALPHA_MISSENSE, SPLICE_AI ]
+  steps: [
+    geneBlacklistFilter: { },
+    failedVariantFilter: { },
+    alleleBalanceFilter: { },
+    variantEffectFilter: {
+      remove: [
+        FIVE_PRIME_UTR_EXON_VARIANT,
+        FIVE_PRIME_UTR_INTRON_VARIANT,
+        THREE_PRIME_UTR_EXON_VARIANT,
+        THREE_PRIME_UTR_INTRON_VARIANT,
+        NON_CODING_TRANSCRIPT_EXON_VARIANT,
+        NON_CODING_TRANSCRIPT_INTRON_VARIANT,
+        CODING_TRANSCRIPT_INTRON_VARIANT,
+        UPSTREAM_GENE_VARIANT,
+        DOWNSTREAM_GENE_VARIANT,
+        INTERGENIC_VARIANT,
+        REGULATORY_REGION_VARIANT
+      ]
+    },
+    frequencyFilter: { maxFrequency: 2.0 },
+    pathogenicityFilter: { keepNonPathogenic: true },
+    inheritanceFilter: { },
+    omimPrioritiser: { },
+    hiPhivePrioritiser: { }
+  ]
+outputOptions:
+  outputContributingVariantsOnly: false
+  numGenes: 0
+  outputDirectory: results/exomiser
+  outputFileName: WGS_EX2312012
+  outputFormats: [ HTML, JSON, TSV_GENE, TSV_VARIANT ]

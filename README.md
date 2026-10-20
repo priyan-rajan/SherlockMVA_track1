@@ -6,7 +6,7 @@
 **PI session (packaging):** `01a15911-af36-7788-b4ef-aec6a956bd8c`
 
 This directory collects the **analysis scripts** behind the Track 1 report
-(`../report.md`, `../results/sherlockMVA_fastvep.csv`). Everything here is a
+(`../sherlockMVA_track1_report.md`, `../results/sherlockMVA_fastvep.csv`). Everything here is a
 **copy** of the original analysis scripts, gathered so the submission is
 self-contained. The originals live under `~/data/analysis/` and are untouched.
 
@@ -57,4 +57,4 @@ the Exomiser data, fastVEP repo and cloud creds must already be in place).
 This is a packaging of pre-existing, already-persisted analyses. No numbers,
 calls or results were recomputed here. Every copied file's origin is recorded in
 `PROVENANCE.tsv` (submission path → source path). For the scientific methods and
-findings, see `../report.md`.
+findings, see `../sherlockMVA_track1_report.md`.

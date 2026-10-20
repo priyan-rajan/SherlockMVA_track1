@@ -2,7 +2,7 @@
 
 **Source analysis:** `~/data/analysis/2026-10-16_phenotype-prioritization-exomiser-only`
 (PI session `01a15911-af36-7788-b4ef-aec6a956bd8c` … original v2 session)
-**Sample:** `WGS_EX2312012` — singleton, GRCh38 (contigs `1,2,…`, no `chr` prefix)
+**Sample:** `PROBAND01` — singleton, GRCh38 (contigs `1,2,…`, no `chr` prefix)
 
 ## What this does
 

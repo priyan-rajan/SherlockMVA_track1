@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-SV / CNV figures for the MVA WGS sample (WGS_EX2312012).
+SV / CNV figures for the MVA WGS sample (PROBAND01).
 
 Three deliverables (all saved under results/):
 
@@ -115,7 +115,7 @@ def fig_svtype_barplot(manta, vt):
                 ha="center", va="bottom", fontsize=11, fontweight="bold")
     ax.set_xticks([])
     ax.set_ylabel("Frequency (number of SV calls)", fontsize=11)
-    ax.set_title("Structural variants detected (Manta, WGS_EX2312012)",
+    ax.set_title("Structural variants detected (Manta, PROBAND01)",
                  fontsize=12)
     ax.set_ylim(0, max(total) * 1.15)
     ax.spines[["top", "right"]].set_visible(False)
@@ -240,7 +240,7 @@ def fig_circos(manta, contigs):
         else:
             n_skip += 1
 
-    circos.text("Manta SVs (PASS) / CNVkit segments\n(WGS_EX2312012)",
+    circos.text("Manta SVs (PASS) / CNVkit segments\n(PROBAND01)",
                 r=117, size=13, fontweight="bold")
 
     fig = circos.plotfig()
@@ -288,7 +288,7 @@ def fig_cnvkit_scatter(contigs):
     ax.set_xlim(0, cum)
     ax.set_ylabel("log2 copy ratio (bin)", fontsize=11)
     ax.set_xlabel("Genomic position", fontsize=11)
-    ax.set_title("CNVkit bin-level copy ratio - WGS_EX2312012 (genome-wide)",
+    ax.set_title("CNVkit bin-level copy ratio - PROBAND01 (genome-wide)",
                  fontsize=13)
 
     # chromosome ticks at centres
@@ -345,7 +345,7 @@ def fig_consequence_barplot():
     ax.set_xlim(1, max(piv["total"].max() * 2.2, 10))
     ax.set_xlabel("distinct variants (log scale)", fontsize=11)
     ax.set_title(
-        "Molecular consequence of SVs/CNVs - WGS_EX2312012\n"
+        "Molecular consequence of SVs/CNVs - PROBAND01\n"
         "(VEP/fastVEP effect terms; distinct variants per term, categories overlap)",
         fontsize=12)
     ax.grid(axis="x", ls=":", alpha=0.4)

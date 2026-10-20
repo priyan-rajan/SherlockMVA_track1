@@ -1,7 +1,7 @@
 # SherlockMVA — Track 1 submission scripts
 
 **Team:** SherlockMVA · **Model number:** 1
-**Proband:** `WGS_EX2312012` (singleton, GRCh38)
+**Proband:** `PROBAND01` (singleton, GRCh38)
 **Date:** 2026-10-20
 **PI session (packaging):** `01a15911-af36-7788-b4ef-aec6a956bd8c`
 

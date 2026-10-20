@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# download.sh — fetch Manta (SV) and CNVkit (CNV) calls for WGS_EX2312012 from R2.
+# download.sh — fetch Manta (SV) and CNVkit (CNV) calls for PROBAND01 from R2.
 # Re-runnable/idempotent. Requires env from the sarek project's setup_env.sh.
 set -euo pipefail
 HERE="$(cd "$(dirname "$0")" && pwd)"

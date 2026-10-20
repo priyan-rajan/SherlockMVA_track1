@@ -1,4 +1,4 @@
-## Exomiser analysis — WGS_EX2312012 (whole-genome VCF, GRCh38)
+## Exomiser analysis — PROBAND01 (whole-genome VCF, GRCh38)
 ## Phenotype-driven prioritisation with the proband's HPO terms.
 ## Model: standard EXOME model (coding) — the genome model requires REMM/CADD
 ## tabix files which are NOT part of the 2512 bundle (see README/plan).

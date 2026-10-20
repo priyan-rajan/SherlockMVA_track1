@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """
 analysis.py — genome-wide (unbiased) scan of Manta SV and CNVkit CNV calls for
-sample WGS_EX2312012.
+sample PROBAND01.
 
 Instruction from the requester: don't start from the panel genes — look across the
 whole genome and see what pops up. So this script is deliberately broad:
@@ -286,7 +286,7 @@ def main():
         for st, sub in manta[manta["svlen"] > 0].groupby("svtype"):
             ax.hist(np.log10(sub["svlen"]), bins=50, alpha=0.5, label=f"{st} (n={len(sub)})")
         ax.set_xlabel("log10 SV length (bp)"); ax.set_ylabel("count")
-        ax.set_title("WGS_EX2312012 — Manta SV length distribution"); ax.legend(fontsize=8)
+        ax.set_title("PROBAND01 — Manta SV length distribution"); ax.legend(fontsize=8)
         fig.tight_layout(); fig.savefig(os.path.join(RES, "fig_manta_svsize.png"), dpi=120); plt.close(fig)
 
         # CNV burden per chromosome
@@ -297,7 +297,7 @@ def main():
         ax.bar(x - 0.2, b["loss"], 0.4, label="loss (cn<2)", color="#c0392b")
         ax.bar(x + 0.2, b["gain"], 0.4, label="gain (cn>2)", color="#2980b9")
         ax.set_xticks(x); ax.set_xticklabels(order, fontsize=7)
-        ax.set_ylabel("Mb"); ax.set_title("WGS_EX2312012 — CNVkit CNV burden per chromosome")
+        ax.set_ylabel("Mb"); ax.set_title("PROBAND01 — CNVkit CNV burden per chromosome")
         ax.legend(); fig.tight_layout(); fig.savefig(os.path.join(RES, "fig_cnv_burden.png"), dpi=120); plt.close(fig)
         log("wrote 2 figures")
     except Exception as e:

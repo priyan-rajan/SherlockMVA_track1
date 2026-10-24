@@ -1,0 +1,20 @@
+MEDICAL ACTIONABILITY OF THE RANKED GENE LIST
+============================================
+ACMG secondary-findings (SF v3.2) genes: 81
+Primary gene (excluded here): BUB1B
+
+Ranked genes that ARE on the ACMG SF v3.2 list:
+  - BRCA1      rank=49   MOI=AD  (exomiser) SF-phenotype=Hereditary breast and/or ovarian cancer [AD]
+  - RYR2       rank=129  MOI=AD  (genomiser) SF-phenotype=Catecholaminergic polymorphic ventricular tachycardia [AD]
+  - TRDN       rank=134  MOI=AD  (exomiser) SF-phenotype=Catecholaminergic polymorphic ventricular tachycardia [AR]
+  - RYR1       rank=153  MOI=AD  (genomiser) SF-phenotype=Malignant hyperthermia [AD]
+  - TTN        rank=155  MOI=AR  (exomiser) SF-phenotype=DCM [AD]
+
+Interpretation:
+  A gene being on the SF v3.2 list makes it *reportable* only if
+  the patient carries a qualifying (P/LP) variant. Ranks listed
+  above are deep in the tail (weak phenotype support), so none
+  represents an actionable secondary finding here.
+  NOTE: LZTR1 is medically relevant (LP truncation) but is NOT on
+  the ACMG SF v3.2 list, so it is a secondary/incidental lead, not
+  a mandated secondary finding.

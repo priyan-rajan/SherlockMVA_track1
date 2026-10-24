@@ -1,0 +1,16 @@
+INPUT CHECK
+===========
+[ ok ] inputs/WGS_EX2312012_HGWCNDSX7.vcf.gz  size=315153971  header=n/a
+[ ok ] inputs/WGS_EX2312012_HGWCNDSX7.vcf.gz.tbi  size=2343376  header=n/a
+[ ok ] inputs/exomiser/WGS_EX2312012.genes.tsv  size=392597  header=yes
+[ ok ] inputs/exomiser/WGS_EX2312012.variants.tsv  size=413528  header=yes
+[ ok ] inputs/genomiser/WGS_EX2312012_genomiser.genes.tsv  size=322047  header=yes
+[ ok ] inputs/genomiser/WGS_EX2312012_genomiser.variants.tsv  size=157854  header=yes
+[ ok ] inputs/panel/panel.bed  size=3838  header=n/a
+[ ok ] inputs/panel/panel_by_gene.tsv  size=71953  header=yes
+[ ok ] inputs/panel/panel_screen_impactful_variants.tsv  size=1778  header=yes
+[ ok ] inputs/acmg/ACMG_SF_3.2.tsv  size=6693  header=n/a
+[ ok ] inputs/svcnv/sv_cnv_gene_level_tiered.tsv  size=11488481  header=yes
+[ ok ] inputs/hpo/hpo_terms.txt  size=88  header=n/a
+
+OVERALL: PASS

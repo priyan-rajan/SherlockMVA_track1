@@ -1,0 +1,9 @@
+SUBMISSION ASSERTIONS
+=====================
+[ ok ] two BUB1B alleles captured
+[ ok ] row1 slot 1: chr15:40209701 T>G
+[ ok ] row1 slot 2: chr15:40220612 T>G
+[ ok ] primary epcr=0.59 (Exomiser combined score)
+[ ok ] rows written: 2
+
+RESULT: PASS

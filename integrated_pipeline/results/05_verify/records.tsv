@@ -1,0 +1,4 @@
+label	chrom	pos	ref	alt	qual	filter	gt	dp	ad	gq
+BUB1B_Leu737Ter	15	40209701	T	G	708.77	PASS	0/1	46	21,25	99
+BUB1B_Asn1002Lys	15	40220612	T	G	344.77	PASS	0/1	28	15,13	99
+LZTR1_secondary	22	20996720	C	G	650.77	PASS	0/1	48	24,24	99

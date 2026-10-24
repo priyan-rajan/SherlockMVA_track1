@@ -1,0 +1,150 @@
+[33mNextflow 26.10.3 is available - Please consider updating your version to it(B[m
+
+ N E X T F L O W   ~  version 25.10.4
+
+Launching `main.nf` [happy_kalman] DSL2 - revision: b5385df57d
+
+[-        ] INPUT_CHECK         -
+[-        ] EXOMISER            -
+[-        ] GENOMISER           -
+[-        ] PANEL_SCREEN        -
+[-        ] SVCNV_SCREEN        -
+[-        ] VERIFY              -
+[-        ] ACTIONABILITY       -
+[-        ] ASSEMBLE_SUBMISSION -
+[-        ] SUMMARY             -
+
+executor >  local (1)
+[ae/62438a] INPUT_CHECK (validate inputs) | 0 of 1
+[-        ] EXOMISER                      -
+[-        ] GENOMISER                     -
+[-        ] PANEL_SCREEN                  -
+[-        ] SVCNV_SCREEN                  -
+[-        ] VERIFY                        -
+[-        ] ACTIONABILITY                 -
+[-        ] ASSEMBLE_SUBMISSION           -
+[-        ] SUMMARY                       -
+
+executor >  local (2)
+[ae/62438a] INPUT_CHECK (validate inputs) | 1 of 1 ✔
+[f4/7f0139] EXOMISER (Exomiser (coding))  | 0 of 1
+[-        ] GENOMISER                     | 0 of 1
+[-        ] PANEL_SCREEN                  | 0 of 1
+[-        ] SVCNV_SCREEN                  | 0 of 1
+[-        ] VERIFY                        | 0 of 1
+[-        ] ACTIONABILITY                 -
+[-        ] ASSEMBLE_SUBMISSION           -
+[-        ] SUMMARY                       -
+
+executor >  local (3)
+[ae/62438a] INPUT_CHECK (validate inputs)  | 1 of 1 ✔
+[f4/7f0139] EXOMISER (Exomiser (coding))   | 0 of 1
+[-        ] GENOMISER                      | 0 of 1
+[-        ] PANEL_SCREEN                   | 0 of 1
+[-        ] SVCNV_SCREEN                   | 0 of 1
+[f3/c25bac] VER…verify alleles in raw VCF) | 0 of 1
+[-        ] ACTIONABILITY                  -
+[-        ] ASSEMBLE_SUBMISSION            -
+[-        ] SUMMARY                        -
+
+executor >  local (4)
+[ae/62438a] INPUT_CHECK (validate inputs)  | 1 of 1 ✔
+[f4/7f0139] EXOMISER (Exomiser (coding))   | 1 of 1 ✔
+[-        ] GENOMISER                      | 0 of 1
+[-        ] PANEL_SCREEN                   | 0 of 1
+[10/d27727] SVC…REEN (SV/CNV vs MVA panel) | 0 of 1
+[f3/c25bac] VER…verify alleles in raw VCF) | 0 of 1
+[-        ] ACTIONABILITY                  -
+[-        ] ASSEMBLE_SUBMISSION            -
+[-        ] SUMMARY                        -
+
+executor >  local (5)
+[ae/62438a] INPUT_CHECK (validate inputs)  | 1 of 1 ✔
+[f4/7f0139] EXOMISER (Exomiser (coding))   | 1 of 1 ✔
+[8a/075e81] GEN…(Genomiser (whole-genome)) | 0 of 1
+[-        ] PANEL_SCREEN                   | 0 of 1
+[10/d27727] SVC…REEN (SV/CNV vs MVA panel) | 0 of 1
+[f3/c25bac] VER…verify alleles in raw VCF) | 1 of 1 ✔
+[-        ] ACTIONABILITY                  -
+[-        ] ASSEMBLE_SUBMISSION            -
+[-        ] SUMMARY                        -
+
+executor >  local (5)
+[ae/62438a] INPUT_CHECK (validate inputs)  | 1 of 1 ✔
+[f4/7f0139] EXOMISER (Exomiser (coding))   | 1 of 1 ✔
+[8a/075e81] GEN…(Genomiser (whole-genome)) | 0 of 1
+[-        ] PANEL_SCREEN                   | 0 of 1
+[10/d27727] SVC…REEN (SV/CNV vs MVA panel) | 0 of 1
+[f3/c25bac] VER…verify alleles in raw VCF) | 1 of 1 ✔
+[-        ] ACTIONABILITY                  -
+[-        ] ASSEMBLE_SUBMISSION            -
+[-        ] SUMMARY                        -
+
+executor >  local (7)
+[ae/62438a] INPUT_CHECK (validate inputs)  | 1 of 1 ✔
+[f4/7f0139] EXOMISER (Exomiser (coding))   | 1 of 1 ✔
+[8a/075e81] GEN…(Genomiser (whole-genome)) | 1 of 1 ✔
+[b8/0e7242] PAN…VA panel (genotype-first)) | 0 of 1
+[10/d27727] SVC…REEN (SV/CNV vs MVA panel) | 1 of 1 ✔
+[f3/c25bac] VER…verify alleles in raw VCF) | 1 of 1 ✔
+[0c/20abf8] ACT…nked genes x ACMG SF v3.2) | 0 of 1
+[-        ] ASSEMBLE_SUBMISSION            -
+[-        ] SUMMARY                        -
+
+executor >  local (8)
+[ae/62438a] INPUT_CHECK (validate inputs)  | 1 of 1 ✔
+[f4/7f0139] EXOMISER (Exomiser (coding))   | 1 of 1 ✔
+[8a/075e81] GEN…(Genomiser (whole-genome)) | 1 of 1 ✔
+[b8/0e7242] PAN…VA panel (genotype-first)) | 0 of 1
+[10/d27727] SVC…REEN (SV/CNV vs MVA panel) | 1 of 1 ✔
+[f3/c25bac] VER…verify alleles in raw VCF) | 1 of 1 ✔
+[0c/20abf8] ACT…nked genes x ACMG SF v3.2) | 1 of 1 ✔
+[74/c3e150] ASS…semble Track-1 submission) | 0 of 1
+[-        ] SUMMARY                        -
+
+executor >  local (8)
+[ae/62438a] INPUT_CHECK (validate inputs)  | 1 of 1 ✔
+[f4/7f0139] EXOMISER (Exomiser (coding))   | 1 of 1 ✔
+[8a/075e81] GEN…(Genomiser (whole-genome)) | 1 of 1 ✔
+[b8/0e7242] PAN…VA panel (genotype-first)) | 0 of 1
+[10/d27727] SVC…REEN (SV/CNV vs MVA panel) | 1 of 1 ✔
+[f3/c25bac] VER…verify alleles in raw VCF) | 1 of 1 ✔
+[0c/20abf8] ACT…nked genes x ACMG SF v3.2) | 1 of 1 ✔
+[74/c3e150] ASS…semble Track-1 submission) | 0 of 1
+[-        ] SUMMARY                        -
+
+executor >  local (9)
+[ae/62438a] INPUT_CHECK (validate inputs)  | 1 of 1 ✔
+[f4/7f0139] EXOMISER (Exomiser (coding))   | 1 of 1 ✔
+[8a/075e81] GEN…(Genomiser (whole-genome)) | 1 of 1 ✔
+[b8/0e7242] PAN…VA panel (genotype-first)) | 0 of 1
+[10/d27727] SVC…REEN (SV/CNV vs MVA panel) | 1 of 1 ✔
+[f3/c25bac] VER…verify alleles in raw VCF) | 1 of 1 ✔
+[0c/20abf8] ACT…nked genes x ACMG SF v3.2) | 1 of 1 ✔
+[74/c3e150] ASS…semble Track-1 submission) | 1 of 1 ✔
+[2b/9b10f5] SUMMARY (summary report)       | 0 of 1
+
+executor >  local (9)
+[ae/62438a] INPUT_CHECK (validate inputs)  | 1 of 1 ✔
+[f4/7f0139] EXOMISER (Exomiser (coding))   | 1 of 1 ✔
+[8a/075e81] GEN…(Genomiser (whole-genome)) | 1 of 1 ✔
+[b8/0e7242] PAN…VA panel (genotype-first)) | 0 of 1
+[10/d27727] SVC…REEN (SV/CNV vs MVA panel) | 1 of 1 ✔
+[f3/c25bac] VER…verify alleles in raw VCF) | 1 of 1 ✔
+[0c/20abf8] ACT…nked genes x ACMG SF v3.2) | 1 of 1 ✔
+[74/c3e150] ASS…semble Track-1 submission) | 1 of 1 ✔
+[2b/9b10f5] SUMMARY (summary report)       | 1 of 1 ✔
+
+executor >  local (9)
+[ae/62438a] INPUT_CHECK (validate inputs)  | 1 of 1 ✔
+[f4/7f0139] EXOMISER (Exomiser (coding))   | 1 of 1 ✔
+[8a/075e81] GEN…(Genomiser (whole-genome)) | 1 of 1 ✔
+[b8/0e7242] PAN…VA panel (genotype-first)) | 1 of 1 ✔
+[10/d27727] SVC…REEN (SV/CNV vs MVA panel) | 1 of 1 ✔
+[f3/c25bac] VER…verify alleles in raw VCF) | 1 of 1 ✔
+[0c/20abf8] ACT…nked genes x ACMG SF v3.2) | 1 of 1 ✔
+[74/c3e150] ASS…semble Track-1 submission) | 1 of 1 ✔
+[2b/9b10f5] SUMMARY (summary report)       | 1 of 1 ✔
+WARN: Failed to render execution report -- see the log file for details
+WARN: Failed to render execution timeline -- see the log file for details
+

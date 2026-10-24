@@ -1,0 +1,8 @@
+metric	value
+panel_genes	123
+tier1_pc_panel_rows	49
+core_genes_with_svcnv	1
+core_genes_without_svcnv	4
+reportable_high_conf_core_svcnv	0
+large_high_conf_calls	2
+conclusion	  large high-confidence calls (likely single-sample artefacts):     - FANCD2 DUP 3:10046582-11870462 (1824 kb)     - RAD52 DUP 12:676214-1623483 (947 kb)   CONCLUSION: SV/CNV is a clean negative for a structural cause   in the core MVA genes; BUB1B has no SV/CNV. The SNV interpretation   is untouched.

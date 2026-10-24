@@ -1,0 +1,13 @@
+# Nextflow runtime scratch
+work/
+.nextflow/
+.nextflow.log*
+
+# Large / externally-supplied raw data (not vendored)
+*.vcf.gz
+*.vcf.gz.tbi
+*.bam
+*.bam.bai
+
+# OS / editor noise
+.DS_Store

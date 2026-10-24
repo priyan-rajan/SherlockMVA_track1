@@ -1,0 +1,13 @@
+name	resolved_path	size_bytes	sha256	header_ok
+vcf	/home/ccloud/data/WGS_EX2312012_HGWCNDSX7.vcf.gz	315153971	skipped(big)	n/a
+vcf_tbi	/home/ccloud/data/WGS_EX2312012_HGWCNDSX7.vcf.gz.tbi	2343376	6f8fed62f11c475fc63a8e2b50925ffc7be33b6930225e821cb977951761a2e0	n/a
+exomiser_genes	/home/ccloud/data/analysis/2026-10-24_mva-exomiser-genomiser-panel-svcnv-nextflow/inputs/exomiser/WGS_EX2312012.genes.tsv	392597	3e64c85c3e0712ca0588c32cd64e586e428a8dce31c81ec37285dda4b60d8fcc	yes
+exomiser_variants	/home/ccloud/data/analysis/2026-10-24_mva-exomiser-genomiser-panel-svcnv-nextflow/inputs/exomiser/WGS_EX2312012.variants.tsv	413528	2907c589d89800a676cdbe66aaf4b21c85967ed4fdaa3742219c2901de819c18	yes
+genomiser_genes	/home/ccloud/data/analysis/2026-10-24_mva-exomiser-genomiser-panel-svcnv-nextflow/inputs/genomiser/WGS_EX2312012_genomiser.genes.tsv	322047	c77768ce4f142552c5ac5b8d168b842488133f93655883e1efd1011dcb2d8e4c	yes
+genomiser_variants	/home/ccloud/data/analysis/2026-10-24_mva-exomiser-genomiser-panel-svcnv-nextflow/inputs/genomiser/WGS_EX2312012_genomiser.variants.tsv	157854	1545333ccf34feda863e3f5d45a98a84d7787293e5b27b3dc1032bfb52bdfd50	yes
+panel_bed	/home/ccloud/data/analysis/2026-10-24_mva-exomiser-genomiser-panel-svcnv-nextflow/inputs/panel/panel.bed	3838	7fa58c04b9c08786209dcdd53079de8a1a8bf9ce23cf396908a9a681cc04d482	n/a
+panel_by_gene	/home/ccloud/data/analysis/2026-10-24_mva-exomiser-genomiser-panel-svcnv-nextflow/inputs/panel/panel_by_gene.tsv	71953	dcb84cfed2f8127403d7e430c867068a7126f453902fc4be25ac53ee3b34c086	yes
+panel_screen	/home/ccloud/data/analysis/2026-10-24_mva-exomiser-genomiser-panel-svcnv-nextflow/inputs/panel/panel_screen_impactful_variants.tsv	1778	01a50b30d2193406c8104fffba51afde6d4a35c5e7eef3e92f7e0d7adfdd6fb1	yes
+acmg_sf	/home/ccloud/data/analysis/2026-10-24_mva-exomiser-genomiser-panel-svcnv-nextflow/inputs/acmg/ACMG_SF_3.2.tsv	6693	cc491cc99022eb5dfc552e420ffe92e97aa0896b61d568e4dfd0b895683d15c0	n/a
+svcnv	/home/ccloud/data/analysis/2026-10-24_mva-exomiser-genomiser-panel-svcnv-nextflow/inputs/svcnv/sv_cnv_gene_level_tiered.tsv	11488481	7cbe28ac6fd008f80c8d34d8d40423758d91d01a5b05016a5601183c7ac84c49	yes
+hpo	/home/ccloud/data/analysis/2026-10-24_mva-exomiser-genomiser-panel-svcnv-nextflow/inputs/hpo/hpo_terms.txt	88	5ecae0153510b3f126b557cfd08e7409cbc0e308413710464e20d15e09047a69	n/a

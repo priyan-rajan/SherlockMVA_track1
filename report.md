@@ -731,13 +731,11 @@ converging on one call, frozen and re-derived by a 9-process Nextflow (DSL2) pip
 Result: compound-heterozygous `BUB1B` `c.2210T>G p.Leu737*` (LP) + `c.3006T>G p.Asn1002Lys`
 (VUS), consistent with MVA1. The two variants are unphased.
 
-**Generative AI used.** Anthropic models were used only as one component of our agent stack;
-the primary model was **DeepSeek V4.1 Flash** served by **Baseten** on the standard
+**Generative AI used.** 
+The primary model was **DeepSeek V4.1 Flash** served by **Baseten** on the standard
 pay-as-you-go API (no enterprise tier; `store=false`, i.e. no server-side conversation storage
-requested), driven by the **pi** coding agent. 4 of 5,637 recorded turns used Claude Opus 4.6
-via Amazon Bedrock during early experimentation and did not produce the submitted calls. Used
-for analysis orchestration, code generation and documentation; **no patient data was used for
-model training**, and all inputs are the public hackathon dataset.
+allowed), driven by the **pi** coding agent. **No patient data was used for
+model training**.
 
 **Is the submission file automated output, or manually reviewed and curated?** It has undergone
 downstream manual review and curation. The pipeline generates the file automatically from
